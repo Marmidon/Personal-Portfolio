@@ -1,86 +1,105 @@
-﻿<!DOCTYPE html>
+﻿
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Foundation BoilerPlate</title>
+    <title>Portfolio</title>
     <link href="css/normalize.css" rel="stylesheet" />
     <link href="css/foundation.min.css" rel="stylesheet" />
     <link href="css/app.css" rel="stylesheet" />
 </head>
 <body>
-    <div class="row" align="center">
-        <img src="images/logo.png" />
-    </div>
+    <div id="container">
+        <div class="row" align="center">
+            <img src="images/logo.png" />
+        </div>
+        <!--Navigation-->
         <div class="row">
             <nav class="top-bar" data-topbar role="navigation">
-                <aside class="large-2 medium-2 small-1 columns">
+                <aside id="large" class="show-for-medium-up large-2 medium-2 small-0 columns">
                     <ul class="title-area">
                         <li class="name">
-                            <h1><a href="index.html">Home</a></h1>
-                        </li>
-                    </ul>
-                    </aside>
-                <aside class="large-2 medium-2 small-2 columns">
-                    <ul class="title-area">
-                        <li class="name">
-                            <h1><a href="index.html">About Us</a></h1>
+                            <h1><a id="highlight" href="index.html">Home</a></h1>
                         </li>
                     </ul>
                 </aside>
-                <aside class="large-2 medium-2 small-2 columns">
+                <aside class="large-2 medium-2 small-3 columns">
                     <ul class="title-area">
                         <li class="name">
-                            <h1><a href="index.html">Projects</a></h1>
+                            <h1><a href="AboutMe.html">About</a></h1>
                         </li>
                     </ul>
                 </aside>
-                <aside class="large-2 medium-2 small-2 columns">
+                <aside class="large-2 medium-2 small-3 columns">
                     <ul class="title-area">
                         <li class="name">
-                            <h1><a href="index.html">Services</a></h1>
+                            <h1><a href="Projects.html">Projects</a></h1>
                         </li>
                     </ul>
                 </aside>
-                <aside class="large-2 medium-2 small-2 columns">
+                <aside class="large-2 medium-2 small-3 columns">
                     <ul class="title-area">
                         <li class="name">
-                            <h1><a href="index.html">Contact Me</a></h1>
+                            <h1><a href="Services.html">Services</a></h1>
                         </li>
                     </ul>
                 </aside>
-                <aside class="large-2 medium-2 small-0 columns">
+                <aside class="large-2 medium-2 small-3 columns">
                     <ul class="title-area">
                         <li class="name">
-                            <h1><a href="index.html">GitHub</a></h1>
+                            <h1><a href="Contact.html">Contact</a></h1>
                         </li>
                     </ul>
                 </aside>
-</nav>
+                <aside class="show-for-medium-up large-2 medium-2 small-0 columns">
+                    <ul class="title-area">
+                        <li class="name">
+                            <h1><a href="https://github.com/Marmidon/Personal-Portfolio">GitHub</a></h1>
+                        </li>
+                    </ul>
+                </aside>
+            </nav>
         </div>
-
-        <div class="row">
-            <aside class="large-4 small-6 columns">
-                <h1> Hihihi </h1>
-
-            </aside>
-            <header class="large-8 small-6 colums">
-                <h1> Hello world </h1>
-            </header>
-        </div>
-        <div id="content" class="row">
-            <article class="large-6 small-6 columns">
-                гда уже было известно, что свет — это тоже электромагнитная волна, и, следовательно, скорость распространения электромагнитных волн равна скорости света. Но вот попытка поместить на движущийся поезд фонарик и посчитать, с какой там скоростью будет
-            </article>
-            <aside class="large-5 small-offset-1 small-5 columns ">
-                Здравствуйте. Это Луркоморье — русский луркмоар. Вы можете редактировать любую статью, тако, в отличие от википедии, мы не ставим своей целью написать обо всем на свете сразу и не руководствуемся мифическими критериями «значимости» и «энциклопедичности». Само получается.
+        <!--Navigation end-->
+        <!--Text area-->
+        <div class="row" align="center">
+            <aside class="large-12 medium-12 small-12 columns">
+                <h1 id="text">Welcome to Mykyta Stenko Portfolio</h1>
+                <p>
+                    Hello! My name is Mykyta Stenko and i am a grad student for Software Engineering Program at Centennial college.
+                    I develop IT solutions using Java, C#, .NET, SQL, C++, JavaScript, jQuery.
+                    Since i was a child computers and everything related to them were my passion. Also, IT is a rapid growing industry that has a lot of opportunities. That is why i decided to pursue a career in software development.
+                <p>
             </aside>
         </div>
+        <!--Keep connected block-->
+        <div id="connectbox" class="row">
+            <aside class="large-8 medium-8 small-12 columns"></aside>
+            <aside class="large-4 medium-4 small-8 columns">
+                <div id="box" class="big" align="right">
+                    <p align="center">Keep connected<p>
+                        <div class="row">
+                            <aside class="large-4 medium-4 small-5 columns">
+                                <script src="//platform.linkedin.com/in.js" type="text/javascript"></script>
+                                <script type="IN/MemberProfile" data-id="ca.linkedin.com/in/MykytaStenko" data-format="hover" data-text="Mykyta Stenko" align="center">
+                                </script>
+                            </aside>
+                        </div>
+                </div>
+            </aside>
+        </div>
 
-        <script src="Scripts/lib/jquery.js"></script>
-        <script src="Scripts/lib/foundation.min.js"></script>
-        <script> $(document).foundation()</script>
-        <script src="Scripts/lib/app.js"></script>
+
+
+
+        <div id="footer" align="center"><p> Copyright (c) 2015 Mykyta Stenko </p> </div>
+    </div>
+    <script src="Scripts/lib/jquery.js"></script>
+    <script src="Scripts/lib/foundation.min.js"></script>
+    <script> $(document).foundation()</script>
+    <script src="Scripts/lib/app.js"></script>
 </body>
 </html>
+<div class="sitescopy" style="text-align: center; font-size: 7px;"><a href="http://sitescopy.ru/" target="_blank" title="Райский Хостинг в Облаках!" alt="Бесплатный и профессиональный хостинг. Домены в подарок!">Hosted by SitesCopy.ru</a></div>
