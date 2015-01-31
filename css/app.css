@@ -1,5 +1,12 @@
 ﻿/*File name =app.css,   Authors name= Mykyta Stenko,   Web site name=mykytastenko.e3w.ru/PersonalPortfolio,  File description=css file-->*/
+p{
+    font-family: 'Roboto', sans-serif;
+}
+h1 {
+    font-family: "Times New Roman", Times, serif;
+}
 body {
+
     margin:0;
 	padding:0;
 	height:100%;
@@ -37,6 +44,7 @@ body {
 }
 
 #footer {
+    font-family: "Times New Roman", Times, serif;
     clear: both;
     width:100%;
 	height:15px;
