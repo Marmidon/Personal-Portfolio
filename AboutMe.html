@@ -1,9 +1,110 @@
-﻿<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
+﻿<!--File name =AboutMe.html,   Author's name= Mykyta Stenko,   Web site name=mykytastenko.e3w.ru/PersonalPortfolio,  File description=About Me Page-->
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <title></title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>About Me</title>
+    <link href="css/normalize.css" rel="stylesheet" />
+    <link href="css/foundation.min.css" rel="stylesheet" />
+    <link href="css/app.css" rel="stylesheet" />
 </head>
 <body>
+    <div id="container">
 
+        <!--Image area-->
+        <div align="center" id="myphoto" class="show-for-medium-up row">
+            <img src="images/My_Photo.jpg" />
+        </div>
+        <div align="center" id="myphoto" class="show-for-small row">
+            <img src="images/My_Photo_small.jpg" />
+        </div>
+
+        <!--/Image area-->
+        <!--Navigation-->
+        <div class="row">
+            <nav class="top-bar" data-topbar role="navigation">
+                <aside id="large" class="show-for-medium-up large-2 medium-2 small-0 columns">
+                    <ul class="title-area">
+                        <li class="name">
+                            <h1><a href="index.html">Home</a></h1>
+                        </li>
+                    </ul>
+                </aside>
+                <aside class="large-2 medium-2 small-2 columns">
+                    <ul class="title-area">
+                        <li class="name">
+                            <h1><a id="highlight" href="AboutMe.html">About</a></h1>
+                        </li>
+                    </ul>
+                </aside>
+                <aside class="large-2 medium-2 small-3 columns">
+                    <ul class="title-area">
+                        <li class="name">
+                            <h1><a href="Projects.html">Projects</a></h1>
+                        </li>
+                    </ul>
+                </aside>
+                <aside class="large-2 medium-2 small-3 columns">
+                    <ul class="title-area">
+                        <li class="name">
+                            <h1><a href="Services.html">Services</a></h1>
+                        </li>
+                    </ul>
+                </aside>
+                <aside class="large-2 medium-2 small-4 columns">
+                    <ul class="title-area">
+                        <li class="name">
+                            <h1><a href="Contact.html">Contact</a></h1>
+                        </li>
+                    </ul>
+                </aside>
+                <aside class="show-for-medium-up large-2 medium-2 small-0 columns">
+                    <ul class="title-area">
+                        <li class="name">
+                            <h1><a href="https://github.com/Marmidon/Personal-Portfolio">GitHub</a></h1>
+                        </li>
+                    </ul>
+                </aside>
+            </nav>
+        </div>
+        <!--Navigation end-->
+        <!--Navigation for small-->
+        <div class="show-for-small row">
+            <nav class="top-bar" data-topbar role="navigation">
+                <aside class="large-2 medium-2 small-2 columns">
+                    <ul class="title-area">
+                        <li class="name">
+                            <h1 align="center"><a href="index.html">Home</a></h1>
+                        </li>
+                    </ul>
+                </aside>
+            </nav>
+        </div>
+        <!--/Navigation for small-->
+        <!--Text area-->
+        <div class="row" align="center">
+            <h1 id="text">Welcome to My Bio Page</h1>
+            <p>
+                My name is Mykyta Stenko.
+                Currently i am a grad student at Centennial College, looking forward to get my Software Engineering advanced diploma.
+                Also, i have a Bachelors degree in applied mathematics.
+                I have experience developing IT solutions using Java, C#, .NET, SQL, C++, JavaScript, jQuery.
+                Since i was a child computers and everything related to them were my passion. Also, IT is a rapid growing industry that has a lot of opportunities. That is why i decided to make development my career.
+            <p>
+        </div>
+        <!--Text area-->
+        
+        </div>
+        <!--Footer-->
+        <div id="footer" class="row" align="center">Copyright (c) 2015 Mykyta Stenko</div>
+
+    <!--/Footer-->
+
+    <script src="Scripts/lib/jquery.js"></script>
+    <script src="Scripts/lib/foundation.min.js"></script>
+    <script> $(document).foundation()</script>
+    <script src="Scripts/lib/app.js"></script>
 </body>
 </html>

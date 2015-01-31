@@ -1,4 +1,4 @@
-﻿
+﻿<!--File name =index.html,   Author's name= Mykyta Stenko,   Web site name=mykytastenko.e3w.ru/PersonalPortfolio,  File description=Home Page-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,9 +12,12 @@
 </head>
 <body>
     <div id="container">
+
+        <!--Logo image-->
         <div class="row" align="center">
             <img src="images/logo.png" />
         </div>
+        <!--/Logo image-->
         <!--Navigation-->
         <div class="row">
             <nav class="top-bar" data-topbar role="navigation">
@@ -25,7 +28,7 @@
                         </li>
                     </ul>
                 </aside>
-                <aside class="large-2 medium-2 small-3 columns">
+                <aside class="large-2 medium-2 small-2 columns">
                     <ul class="title-area">
                         <li class="name">
                             <h1><a href="AboutMe.html">About</a></h1>
@@ -46,7 +49,7 @@
                         </li>
                     </ul>
                 </aside>
-                <aside class="large-2 medium-2 small-3 columns">
+                <aside class="large-2 medium-2 small-4 columns">
                     <ul class="title-area">
                         <li class="name">
                             <h1><a href="Contact.html">Contact</a></h1>
@@ -63,6 +66,19 @@
             </nav>
         </div>
         <!--Navigation end-->
+        <!--Navigation for small-->
+        <div class="show-for-small row">
+            <nav class="top-bar" data-topbar role="navigation">
+                <aside class="large-2 medium-2 small-2 columns">
+                    <ul class="title-area">
+                        <li class="name">
+                            <h1 align="center"><a id="highlight" href="index.html">Home</a></h1>
+                        </li>
+                    </ul>
+                </aside>
+            </nav>
+        </div>
+        <!--/Navigation for small-->
         <!--Text area-->
         <div class="row" align="center">
             <aside class="large-12 medium-12 small-12 columns">
@@ -74,6 +90,7 @@
                 <p>
             </aside>
         </div>
+        <!--Text area-->
         <!--Keep connected block-->
         <div id="connectbox" class="row">
             <aside class="large-8 medium-8 small-12 columns"></aside>
@@ -82,24 +99,37 @@
                     <p align="center">Keep connected<p>
                         <div class="row">
                             <aside class="large-4 medium-4 small-5 columns">
-                                <script src="//platform.linkedin.com/in.js" type="text/javascript"></script>
-                                <script type="IN/MemberProfile" data-id="ca.linkedin.com/in/MykytaStenko" data-format="hover" data-text="Mykyta Stenko" align="center">
-                                </script>
+                                <a href="https://www.linkedin.com/in/mykytastenko">
+                                    <img src="images/LinkedIn-Logo-2C.png" />
+                                </a>
                             </aside>
                         </div>
                 </div>
             </aside>
         </div>
+        <!--/Keep connected block-->
+        <!--Call to action block-->
+        <div id="big_image" class="show-for-medium-up row">
+            <a href="Projects.html">
+                <img src="images/arrow.png" />
+            </a>
+        </div>
 
-
-
-
-        <div id="footer" align="center"><p> Copyright (c) 2015 Mykyta Stenko </p> </div>
+        <div class="show-for-small row">
+            <a href="Projects.html">
+                <img src="images/arrow_small.png" />
+            </a>
+        </div>
     </div>
+        <!--/Call to action block-->
+        <!--Footer-->
+        <footer id="footer" align="center">Copyright (c) 2015 Mykyta Stenko</footer>
+
+             <!--/Footer-->
+
     <script src="Scripts/lib/jquery.js"></script>
     <script src="Scripts/lib/foundation.min.js"></script>
     <script> $(document).foundation()</script>
     <script src="Scripts/lib/app.js"></script>
 </body>
 </html>
-<div class="sitescopy" style="text-align: center; font-size: 7px;"><a href="http://sitescopy.ru/" target="_blank" title="Райский Хостинг в Облаках!" alt="Бесплатный и профессиональный хостинг. Домены в подарок!">Hosted by SitesCopy.ru</a></div>
